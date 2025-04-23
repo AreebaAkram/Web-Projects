@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 10px;
+    display: flex;
+    background: #4a53b3;
+    justify-content: center;
+    align-items: center;
+}
+.MainForm{
+    width: 100%;
+    max-width: 435px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 41px 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.MainForm h3{
+    font-size: 20px;
+    text-align: centre;
+}
+h3{
+    text-align: center;
+}
+.MainForm .login_options{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.MainForm .login_options .option{
+    width: calc(100% /2 - 12px) ;
+}
+.MainForm .login_options .option{
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #F8F8FB;
+    border: 1px solid #DADAF2;
+    border-radius: 5px;
+    margin: 34px 0 24px 0;
+    text-decoration: none;
+    color: #4954d0;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+.MainForm .login_options .option a:hover{
+    background: #ededf5;
+    border-color: #626cd6;
+}
+.MainForm .login_options .option a img{
+    max-width: 25px;
+    float: left;
+}
+.MainForm p{
+    text-align: center;
+    font-weight: 500;
+}
+.MainForm .separator{
+    position: relative;
+    margin-bottom: 18px;
+}
+.MainForm .separator span{
+    background: #fff;
+    z-index: 1;
+    padding: 0 10px;
+    position: relative;
+}
+.MainForm .separator::after{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    height: 1px;
+    background: #c2c2c2;
+    display: block;
+}
+form .inputBox label{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+form .inputBox input{
+    width: 100%;
+    height: 57px;
+    border: 1px solid #DADAF2;
+    border-radius: 5px;
+    outline: none;
+    background: #F8F8FB;
+    font-size: 17px;
+    padding: 0px 20px;
+    margin-bottom: 25px;
+    transition: 0.2s ease;
+}
+form .inputBox input:focus{
+    border-color: #626cd6;
+}
+form .inputBox .password{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+form .inputBox{
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: #626cd6;
+    font-weight: 500;
+}
+a:hover{
+    text-decoration: underline;
+}
+form button{
+    width: 100%;
+    height: 56px;
+    border-radius: 5px;
+    background: #626cd6;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 26px;
+    transition: 0.3s ease;
+    border: none;
+    outline: none;
+}
+form button:hover{
+    background: #4954d0;
+}
